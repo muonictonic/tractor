@@ -8,7 +8,6 @@ class tractor
 
         for (int i = (word.length() - 1); i >= 0; i--)
         {
-            
             new_word += word.charAt(i);
         }
         System.out.println(new_word);
