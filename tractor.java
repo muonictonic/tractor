@@ -5,12 +5,11 @@ class tractor
         //String word     = args[0];
         String word     = "tractor";
         String new_word = "";
-        char temp;
 
         for (int i = (word.length() - 1); i >= 0; i--)
         {
-            temp = word.charAt(i);
-            new_word += temp;
+            
+            new_word += word.charAt(i);
         }
         System.out.println(new_word);
     }
